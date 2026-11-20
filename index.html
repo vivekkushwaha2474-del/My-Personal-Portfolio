@@ -1,0 +1,172 @@
+<!--
+Section: Web Development I
+Project: Personal Portfolio Website
+Page: Home Page
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My personal portfolio website">
+    <title>My Personal Portfolio</title>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Vivek</h1>
+
+        <!-- Navigation Bar -->
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section id="home">
+            <h2>Welcome to My Portfolio</h2>
+            <p>
+                Hello! I am a B.Tech Computer Science student.
+                Welcome to my personal portfolio website.
+            </p>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+
+            <img src="c:\Users\vivek\Downloads\WhatsApp Image 2026-11-05 at 11.15.56 PM.jpeg"
+                 alt="My profile photograph"
+                 width="180">
+
+            <p>
+                My name is Vivek. I am a B.Tech student
+                interested in computer science and web development.
+                I enjoy learning new technologies and creating
+                useful projects.
+            </p>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>My Projects</h2>
+
+            <ul>
+                <li>
+                    <strong>Personal Portfolio Website:</strong>
+                    A website to showcase my skills and information.
+                </li>
+
+                <li>
+                    <strong>AgriSmart Portal:</strong>
+                    A smart agriculture portal for useful farming information.
+                </li>
+
+                <li>
+                    <strong>AI Following Robot:</strong>
+                    An Arduino-based robot designed to follow a person.
+                </li>
+            </ul>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Technical Skills</h2>
+
+            <table border="1">
+                <caption>My Technical Skills</caption>
+
+                <thead>
+                    <tr>
+                        <th scope="col">Skill</th>
+                        <th scope="col">Learning Level</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Beginner</td>
+                    </tr>
+
+                    <tr>
+                        <td>CSS</td>
+                        <td>Beginner</td>
+                    </tr>
+
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Learning</td>
+                    </tr>
+
+                    <tr>
+                        <td>Python</td>
+                        <td>Beginner</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <form action="#" method="get">
+
+                <p>
+                    <label for="name">Name:</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your name"
+                        required>
+                </p>
+
+                <p>
+                    <label for="email">Email:</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        required>
+                </p>
+
+                <p>
+                    <label for="message">Message:</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        placeholder="Enter your message"
+                        rows="5"
+                        required></textarea>
+                </p>
+
+                <button type="submit">Send Message</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2026 Vivek. All Rights Reserved.</p>
+        <p>Personal Portfolio Website</p>
+    </footer>
+
+</body>
+</html>
